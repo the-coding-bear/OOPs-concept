@@ -15,13 +15,10 @@ public class Demo {
         st1.showFullDetails();
 
 
-        Student st2 = new Student();
-
-        st2.studentId=456;
-        st2.studentName="Shyam";
-        st2.studentCity="MUMBAI";
+        Student st2 = new Student(23,"akku","delhi");
 
         st2.study();
+        st2.study(111);
         st2.showFullDetails();
     }
 }

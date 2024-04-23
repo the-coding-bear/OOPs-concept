@@ -8,7 +8,17 @@ class Student {
     String studentCity;
 
     public Student(){
-        System.out.println("Creating object");
+        System.out.println("Creating object: non-p");
+    }
+
+    public Student(int st){
+        System.out.println("parameterized constructor:(int)");
+    }
+
+    public  Student(int i,String n,String c){
+        studentId=i;
+        studentName=n;
+        studentCity=c;
     }
 
     //Behaviour : member methods : methods: (functions)
@@ -16,6 +26,11 @@ class Student {
     public  void study()
     {
         System.out.println(studentName + " is studying");
+    }
+
+    public void study(int f){
+        System.out.println(studentId + " is studying");
+
     }
     public void showFullDetails()
     {
