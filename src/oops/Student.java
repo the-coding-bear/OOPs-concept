@@ -8,6 +8,7 @@ class Student {
     String studentCity;
 
     public Student(){
+        this(22);
         System.out.println("Creating object: non-p");
     }
 
@@ -15,10 +16,10 @@ class Student {
         System.out.println("parameterized constructor:(int)");
     }
 
-    public  Student(int i,String n,String c){
+    public  Student(int i,String studentName,String studentCity){
         studentId=i;
-        studentName=n;
-        studentCity=c;
+        this.studentName=studentName;
+        this.studentCity=studentCity;
     }
 
     //Behaviour : member methods : methods: (functions)
