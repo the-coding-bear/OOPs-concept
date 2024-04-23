@@ -20,5 +20,12 @@ public class Demo {
         st2.study();
         st2.study(111);
         st2.showFullDetails();
+
+        Dog d1 = new Dog();
+        d1.eating();
+        System.out.println(d1.color);
+
+        Cat c1 = new Cat();
+        System.out.println(c1.age);
     }
 }
