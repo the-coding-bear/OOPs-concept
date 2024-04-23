@@ -24,6 +24,7 @@ public class Demo {
         Dog d1 = new Dog();
         d1.eating();
         System.out.println(d1.color);
+        d1.speak();
 
         Cat c1 = new Cat();
         System.out.println(c1.age);
