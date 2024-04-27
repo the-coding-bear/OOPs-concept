@@ -14,7 +14,7 @@ class Circle implements Shape{
     }
 
     public static void main(String[] args) {
-        Circle c1 = new Circle();
+        Shape c1 = new Circle();
         c1.calculateArea(2);
     }
 }
